@@ -1,0 +1,23 @@
+* {
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    padding: 2em 5em;
+}
+
+table tr:nth-of-type(odd) {
+    background-color: rgb(128, 128, 128);
+}
+
+table tr th {
+    background-color: black;
+    color: white;
+    padding: 15px 17px;
+}
