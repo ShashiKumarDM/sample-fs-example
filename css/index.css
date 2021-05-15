@@ -2,22 +2,37 @@
     font-family: sans-serif;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 h2 {
     text-align: center;
+}
+
+.add-buton-div a{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
 }
 
 table {
     width: 100%;
     text-align: center;
-    padding: 2em 5em;
-}
-
-table tr:nth-of-type(odd) {
-    background-color: rgb(128, 128, 128);
+    padding: 1em 5em;
 }
 
 table tr th {
     background-color: black;
     color: white;
     padding: 15px 17px;
+}
+
+table tr td {
+    padding: 15px 17px;
+}
+
+table tr:nth-of-type(odd) {
+    background-color: rgb(204, 204, 204);
 }

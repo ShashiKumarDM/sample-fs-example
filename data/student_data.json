@@ -1,0 +1,26 @@
+{
+    "idCreator": 4,
+    "students": [
+        {
+            "id": 1,
+            "name": "Shashi Kumar",
+            "usn": "1AY17BEIS120",
+            "auid": "AIT17BEIS148",
+            "branch": "Information Science and engineering"
+        },
+        {
+            "id": 2,
+            "name": "Varun Ramdurgam",
+            "usn": "1AY17BEIS075",
+            "auid": "AIT17BEIS012",
+            "branch": "Information Science and engineering"
+        },
+        {
+            "id": 3,
+            "name": "Shashank",
+            "usn": "1AY17BEIS087",
+            "auid": "AIT17BEIS140",
+            "branch": "Information Science and engineering"
+        }
+    ]
+}

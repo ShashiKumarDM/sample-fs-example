@@ -1,0 +1,23 @@
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  padding: 10px 13px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 1em;
+  font-weight: 500;
+} 
+
+.btn-success {
+    background-color: green;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.w-100 {
+    width: 100%;
+}
