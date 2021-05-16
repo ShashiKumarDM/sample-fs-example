@@ -23,7 +23,7 @@
         <h2>Welcome to FS Sample Example</h2>
 
         <div class="add-buton-div">
-            <a href="./html/addStudent.html" class="btn btn-success">Add Student</a>
+            <a href="/pages/addStudent.html" class="btn btn-success">Add Student</a>
         </div>
 
         <table>
@@ -45,7 +45,10 @@
                                 <td> $student->usn </td>
                                 <td> $student->auid </td>
                                 <td> $student->branch </td>
-                                <td> </td>
+                                <td> 
+                                    <a class='btn btn-primary' href='/pages/editStudent.php?id=$student->id' > Edit </a>
+                                    <a class='btn btn-danger' href='/phpScripts/deleteStudent.php?id=$student->id' > Delete </a>
+                                </td>
                             </tr>
                         ";
                     }
